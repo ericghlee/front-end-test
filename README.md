@@ -13,7 +13,7 @@ The application should have the following features:
 	- the email validation can be done while the user writes it or after trying the 'next' button
 	- if the email is valid and the user tries the 'next' button, it should go to the next step
 - second step for *password* field
-	- for test purposes, if both email and password contains the string 'test' the emain and password matches
+	- for test purposes, if both email and password contains the string 'test' the email and password matches
 	- if the password doesn't match it should return a message
 	- if the password matches it should redirect to the home page.
 	
