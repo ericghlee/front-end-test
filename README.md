@@ -2,7 +2,7 @@
 
 For this task you will be creating a **React login single page application**.
 
-**It must be production quality according to your understanding of it: testing, readme.md etc. ff there's no instruction how to run the code or/and it doesn't compile, it will NOT QUALIFY**
+**It must be production quality according to your understanding of it: testing, readme.md etc. If there's no instruction how to run the code or/and it doesn't compile, it will NOT QUALIFY**
 
 The application should have the following features:
 ## Features
