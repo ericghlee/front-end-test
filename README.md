@@ -1,6 +1,6 @@
 # FRONTEND SKILS ASSESSMENT PROJECT
 
-For this task you will be creating a **React login single page application**. This application will take various input parameters and store data about transactions.
+For this task you will be creating a **React login single page application**.
 
 **It must be production quality according to your understanding of it: testing, readme.md etc. ff there's no instruction how to run the code or/and it doesn't compile, it will NOT QUALIFY**
 
@@ -13,12 +13,18 @@ The application should have the following features:
 	- the email validation can be done while the user writes it or after trying the 'next' button
 	- if the email is valid and the user tries the 'next' button, it should go to the next step
 - second step for *password* field
-	- for test purposes, if the user put any text that contains 'test' the user must be logged
+	- for test purposes, if both email and password contains the string 'test' the emain and password matches
 	- if the password doesn't match it should return a message
 	- if the password matches it should redirect to the home page.
 	
+##### Header:
+- It contains a title to the page
+
+##### Footer:
+- It contains the current date 
+	
 ##### Home page:
-- It should contain only a welcome message
+- It contains only a welcome message
 
 #### Observations:
 The stylization doesn't need to be too elaborated, it's allowed to use pre made themes but your CSS should be organized.
