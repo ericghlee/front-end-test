@@ -185,11 +185,10 @@ You need to agregate it by week, like the table below:
 | 123 | 2019-12-01 **Sunday** | 2019-12-05 Thursday | 6 | 120.00 | 180.00 |
 | 123 | 2019-12-06 Friday | 2019-12-12 Thursday | 3 | 100.00 | 300.00 |
 
-And one button 'aggregate' that when clicked show the table in aggregated by week following the rules:
 - It always start on Friday and finishes on Thursday, except on the start/end of the Month. In the example the total sum of transactions is 400.00.
 - If there's no one single day of transaction for the week, the report should hide the week.
-- The user can have no transaction in one day of the week, we still need to show the week. 
-- After clicking the button the 'aggregate by week' label in the button changes to 'show by date', which when clicked it returns to the original table 
+- The user can have no transaction in one day of the week, we still need to show the week.
+- To get the transaction data you can use the following endpoint: https://front-end-clip.free.beeceptor.com/transactions
 
 #### Observations:
 The stylization doesn't need to be too elaborated, it's allowed to use pre made themes but your CSS should be organized.
