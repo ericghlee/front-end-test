@@ -36,7 +36,7 @@ You have the data in the folloing format from https://front-end-clip.free.beecep
       "user_id":123,
       "date":"2019-11-07",
       "amount":100
-   
+   }
 ]
 ```
 You need to agregate it by week, like the table below:
