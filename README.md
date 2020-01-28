@@ -24,7 +24,20 @@ The application should have the following features:
 - It contains the current date 
 	
 ##### Home page:
-- It contains only a welcome message
+- It contains the following transactions table:
+| Id | Week start | Week finish | Quantity | Amount | Total Amount |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 123 | 2019-11-08 Friday | 2019-11-14 Thursday | 2 | 10.00 | 00.00 |
+| 123 | 2019-11-25 Friday | 2019-11-21 Thursday | 1 | 20.00 | 10.00 |
+| 123 | 2019-11-22 Friday | 2019-11-28 Thursday | 4 | 100.00 | 30.00 |
+| 123 | 2019-11-29 Friday | 2019-11-30 **Saturday** | 3 | 50.00 | 130.00 |
+| 123 | 2019-12-01 **Sunday** | 2019-12-05 Thursday | 6 | 120.00 | 180.00 |
+| 123 | 2019-12-06 Friday | 2019-12-12 Thursday | 3 | 100.00 | 300.00 |
+
+And one button 'aggregate' that show the table in aggregated by week following the rules:
+- It always start on Friday and finishes on Thursday, except on the start/end of the Month. In the example the total sum of transactions is 400.00.
+- If there's no one single day of transaction for the week, the report should hide the week.
+- The user can have no transaction in one day of the week, we still need to show the week. 
 
 #### Observations:
 The stylization doesn't need to be too elaborated, it's allowed to use pre made themes but your CSS should be organized.
