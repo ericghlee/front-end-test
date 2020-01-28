@@ -24,7 +24,7 @@ The application should have the following features:
 - It contains the current date 
 	
 ##### Home page:
-You have the data in the folloing format from https://front-end-clip.free.beeceptor.com/transactions
+You have the data in the following format from https://front-end-clip.free.beeceptor.com/transactions
 ```json
 [
    {
@@ -39,7 +39,7 @@ You have the data in the folloing format from https://front-end-clip.free.beecep
    }
 ]
 ```
-You need to agregate it by week, like the table below:
+You need to aggregate it by week, like the table below:
 
 | Id | Week start | Week finish | Quantity | Amount | Total Amount |
 | :---: | :---: | :---: | :---: | :---: | :---: |
